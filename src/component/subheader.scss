@@ -1,0 +1,64 @@
+.sub {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 40px;
+
+    // Style for buttons
+    .head{
+        font-weight: 400;
+        font-size: 48px;
+        color: #2C384A;
+    }
+
+    .middle{
+        display: flex;
+        width: 100%;
+        color: #727D87;
+        margin-bottom: 10px;
+        p{
+            display: inline;
+        }
+    }
+
+    .bottom{
+        color: #727D87;
+        display: flex;
+        .vector{
+            color: #5C6874;
+        }
+    }
+
+    button {
+        padding: 5px 10px;
+        border: 1px;
+        border-radius: 12px;
+        margin: 5px; // Add margin between buttons
+        background-color: #FFFFFF;
+        color: #4B5665;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: start;
+        
+        width: 100%;
+    }
+
+    // Style for paragraphs inside flex container with class 'flex'
+    .flex p {
+        margin: 0; // Remove default margin for paragraphs
+    }
+
+    // Style for select element
+    select {
+        color: #727D87;
+        background: none;
+        border: none;
+        margin-left: auto;
+    }
+
+    
+}
