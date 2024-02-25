@@ -8,7 +8,7 @@ const Card = ({ product }) => {
   return (
     <div className='flex flex-col items-center justify-center'>
     <div className='flex flex-col justify-center items-center w-[70%]'>
-    <div className='w-[100%] mb-[-60px] z-10 bg-transparent'>
+    <div className='w-[100%] mb-[-60px] z-50 bg-transparent'>
         <p className='bg-[#FF7724] p-2 w-fit border rounded-r-lg text-[#FFFFFF] '>
         <FontAwesomeIcon icon={faTrophy} className='pr-2 bg-transparent' />
           Best Choice

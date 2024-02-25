@@ -8,7 +8,7 @@ const SmallCard = ({ product }) => {
     <h1 className='heading'>
       Related deals you might like for
     </h1>
-    <div className='flex justify-evenly'>
+    <div className='flex flex-wrap justify-evenly'>
     <div className="small-card">
       <div className="card-image">
         <img src={url} alt="#" />

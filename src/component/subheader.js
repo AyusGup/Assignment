@@ -23,15 +23,15 @@ const Header = () => {
         </select>
        </div>
        <hr></hr>
-       <div className='flex w-full space-x-4 mb-4'>
-          <button>Tools</button>
-          <button>AWS Builder</button>
-          <button>Start Build</button>
-          <button>Build Supplies</button>
-          <button>Tooling</button>
-          <button>BlueHosting</button>
-       </div>
-       <div className='bottom space-x-2'>
+       <div className='flex flex-wrap w-full space-x-4 mb-4'>
+         <button>Tools</button>
+         <button>AWS Builder</button>
+         <button>Start Build</button>
+         <button>Build Supplies</button>
+         <button>Tooling</button>
+         <button>BlueHosting</button>
+      </div>
+      <div className='bottom space-x-2 flex flex-wrap'>
           <p>Home</p>
           <p><FontAwesomeIcon icon={faAngleRight} className='vector' /></p>
           <p>Hosting for all</p>
